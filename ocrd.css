@@ -24,6 +24,8 @@ table { margin:auto; width:50% }
 .with-small-table > table td:nth-child(1) { width: 5vw; }
 .with-small-table > table td, .with-small-table > table th { padding: 0 1em; }
 
+.small-pre pre * { font-size: small; }
+
 ul > li > ul > li { font-size:1.5rem }
 ul > li > ol > li { font-size:1.5rem }
 ol > li > ul > li { font-size:1.5rem }
@@ -79,3 +81,11 @@ ul > li > ul > li > ol > li { font-size:1.2rem }
 }
 
 .my-footer a { color:#fff; text-decoration:none }
+
+.left-column {float:left}
+.right-column {float:right}
+
+.split-40 .left-column {width: 40%}
+.split-40 .right-column {width: 60%}
+
+.large { font-size: larger; }
