@@ -156,7 +156,9 @@ class: split-40
 ```sh
 $> ocrd-tesserocr-recognize \
   --mets https://.../mets.xml \
+  --working-dir /tmp/working-dir-123 \
   --input-file-grp OCR-D-IMG \
+  --output-file-grp OCR-D-OCR-TESS \
   --group-id PAGE-0001
 ```
 ]
@@ -176,7 +178,9 @@ class: split-40
 $> docker run --rm -it ocrd/tesserocr \
   ocrd-tesserocr-recognize \
     --mets https://.../mets.xml \
+    --working-dir /tmp/working-dir-123 \
     --input-file-grp OCR-D-IMG \
+    --output-file-grp OCR-D-OCR-TESS \
     --group-id PAGE-0001
 ```
 ]
