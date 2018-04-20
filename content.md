@@ -199,7 +199,8 @@ class: split-40
 ```sh
 $> curl file:///tmp/param.json
 {"random-param": 42}
-$> ocrd-kraken-binarize -p file:///tmp/param.json
+$> ocrd-kraken-binarize\
+  -p file:///tmp/param.json
 × Unknown param 'random-param'
 ```
 
